@@ -1,0 +1,67 @@
+.formContainer {
+	/* background-color: rgb(56, 43, 43); */
+	height: 300px;
+	width: 400px;
+	align-content: center;
+	padding-bottom: 80px;
+	padding-top: 60px;
+}
+
+.formHeader {
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.fontColour {
+	color: rgb(82, 82, 82);
+}
+
+.form {
+	position: relative;
+}
+
+.emailInput {
+	height: 40px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid grey;
+	color: black;
+	padding: 5px;
+}
+.errorContainer {
+	min-height: 20px;
+}
+
+.errorText {
+	color: red;
+}
+.submitButton {
+	position: absolute;
+	right: 2px;
+	height: 90%;
+	transform: translateY(-50%);
+	top: 50%;
+	width: 10%;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background-color: rgb(234, 88, 12);
+	opacity: 90%;
+	transition: background-color 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.submitButton:hover {
+	background-color: black;
+}
+
+.submitButton:hover > .paperPlane {
+	color: rgb(255, 255, 255);
+}
+.paperPlane {
+	color: rgb(0, 0, 0);
+	transition: color 0.2s ease-in-out;
+}
